@@ -14,5 +14,4 @@ permissions:
 
 jobs:
   check-new-maps:
-    if: ${{ github.event == 'push' || github.event == 'pull_request' }}
     uses: Warzone2100/maps-database/.github/workflows/check_new_maps.yml@main
